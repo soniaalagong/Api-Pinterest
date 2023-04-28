@@ -11,10 +11,6 @@ const getSectionMore = async (req, res)=>{
 
     const buscar = await SectionMore.find()
 
-    /*res.json('hola')
-    console.log(sectionMoreSchema)
-    console.log('hola')*/
-
     let data = buscar
     let status = data ? 200 : 204
     let statusText = data ? 'Cargando sectionMore' : 'No hay datos'
