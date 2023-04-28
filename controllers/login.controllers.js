@@ -5,7 +5,7 @@ let usuarios = [
     { userName: "Eduardo Fierro",
       contra: "admin"
     },
-    { userName: "CEI escuela",
+    { userName: "CEI Escuela",
       contra: "master"
     }
 ]
